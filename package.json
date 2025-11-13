@@ -1,0 +1,24 @@
+{
+  "name": "tg-uzbek-price-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot that detects products from images and finds best prices on Uzbek marketplaces",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "uzbekistan",
+    "marketplace",
+    "price"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.0",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.4.0",
+    "telegraf": "^4.16.2"
+  }
+}
